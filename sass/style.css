@@ -4,13 +4,11 @@
 }
 
 body {
-  background-color: #1687A7;
+  font-family: "Lustria", serif;
+  background-color: #1687a7;
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,6 +16,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28,7 +29,7 @@ body {
 
 .container .main-container {
   border-radius: 30px;
-  background-color: #1687A7;
+  background-color: #1687a7;
   -webkit-box-shadow: -20px -20px 60px #13738e, 20px 20px 60px #199bc0;
           box-shadow: -20px -20px 60px #13738e, 20px 20px 60px #199bc0;
   display: -webkit-box;
@@ -61,7 +62,6 @@ body {
 }
 
 .container .main-container .left-container .features {
-  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,6 +69,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  margin-top: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -80,17 +81,18 @@ body {
   padding: 5px;
   margin: 5px;
   text-align: center;
-  background-color: #1687A7;
+  background-color: #1687a7;
   border-radius: 6px;
 }
 
 .container .main-container .left-container .features button:hover {
-  -webkit-box-shadow: -7px -7px 20px 0px #1aa1c7,  -4px -4px 5px 0px #1aa1c7, 7px 7px 20px 0px #126d87,  4px 4px 5px 0px #126d87;
-          box-shadow: -7px -7px 20px 0px #1aa1c7,  -4px -4px 5px 0px #1aa1c7, 7px 7px 20px 0px #126d87,  4px 4px 5px 0px #126d87;
+  -webkit-box-shadow: -7px -7px 20px 0px #1aa1c7, -4px -4px 5px 0px #1aa1c7, 7px 7px 20px 0px #126d87, 4px 4px 5px 0px #126d87;
+          box-shadow: -7px -7px 20px 0px #1aa1c7, -4px -4px 5px 0px #1aa1c7, 7px 7px 20px 0px #126d87, 4px 4px 5px 0px #126d87;
 }
 
 .container .main-container .left-container .features button a {
   text-decoration: none;
+  font-family: "Lustria", serif;
   color: black;
   font-size: 1rem;
 }
@@ -156,6 +158,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    margin: 20px 15px 20px 15px;
     width: auto;
   }
   .container .main-container .left-container {
@@ -186,6 +189,12 @@ body {
   }
   .container .main-container .right-container img {
     border-radius: 30px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .main-container {
+    margin: 20px 15px 20px 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
